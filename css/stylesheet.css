@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: mediumseagreen;
+}
+
+nav {
+    text-align: center;
+}
+
+/* Background Image */
+
+main {
+    text-align: center;
+    min-height: 200px;
+    background-image: url("../images/Pasta1.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rounded-corners {
+    height: 80%;
+    width: 80%;
+    border-radius: 20%;
+    opacity: 70%;
+}
+
+.menuimages {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    .menuimages {
+        display: flex;
+        flex-direction: column;
+    }  
+    nav {
+        display: flex;
+        flex-direction:column;
+    } 
+}
+
+
+.logo {
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+    text-align: center;
+}
